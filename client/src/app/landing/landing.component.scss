@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@200&display=swap");
+
+.hero {
+  background-image: url("/assets/img/landingBgImg.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+.title {
+  font-size: 200px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.heading {
+  color: white;
+  font-size: 25px;
+}
