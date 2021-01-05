@@ -1,0 +1,30 @@
+.hero {
+  background-image: linear-gradient(rgb(80, 79, 81), rgb(39, 39, 41));
+  $spacing-shortcuts: (
+    "margin": "mg",
+  );
+  $spacing-horizontal: "h";
+  $spacing-vertical: null;
+  $spacing-values: (
+    "small": 10px,
+    "medium": 30px,
+    "large": 60px,
+  );
+}
+
+form {
+  background-color: #040825;
+  width: 750px;
+  height: 500px;
+  padding: 50px 50px 50px 50px;
+  border-radius: 30px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+  color: white;
+}
+
+label {
+  color: white;
+}
