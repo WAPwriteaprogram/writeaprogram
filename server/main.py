@@ -1,10 +1,10 @@
 import routes
 
 import json
-from pathlib import Path
+#from pathlib import Path
 
 # --- loads config.json
-config_file = open(str(Path(__name__).parent) + "/config.json")
+config_file = open("./config.json")
 config = json.load(config_file)
 # ---
 
